@@ -1,0 +1,95 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Tenor Sans", serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  margin-top: 37px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__ul {
+  margin: 0 20px 0 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.header__a {
+  text-decoration: none;
+  color: black;
+  font-family: "Libre Franklin", serif;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  font-weight: 400;
+}
+.header__li {
+  margin-left: 40px;
+}
+
+.japan {
+  margin-top: 88px;
+}
+.japan__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.japan__right {
+  max-width: 430px;
+}
+.japan__h6 {
+  margin: 6px 0 18px 0;
+  font-family: "Libre Franklin", serif;
+  letter-spacing: 1px;
+  line-height: 12px;
+  font-size: 10px;
+  color: #999999;
+  font-weight: 400;
+}
+.japan__h1 {
+  margin: 0;
+  line-height: 42px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.japan__p {
+  margin: 27px 0 28px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Source Serif 4", serif;
+  color: #666666;
+  letter-spacing: 0;
+}
+.japan__h5 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Libre Franklin", serif;
+}
