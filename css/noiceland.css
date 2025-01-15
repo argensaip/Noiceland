@@ -131,3 +131,78 @@ body {
   letter-spacing: 1px;
   margin: 0;
 }
+
+.block2 {
+  margin-top: 40px;
+}
+.block2__inner {
+  border-top: 1px solid #E6E6E6;
+}
+.block2__h4 {
+  font-weight: 400;
+  font-family: "Libre Franklin", serif;
+  color: #999999;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 90px 0 30px 0;
+}
+.block2__ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.block2__item {
+  max-width: 285px;
+  margin-bottom: 50px;
+}
+.block2__img {
+  max-width: 285px;
+  max-height: 187px;
+}
+.block2__h6 {
+  margin: 20px 0 18px 0;
+  font-family: "Libre Franklin", serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.block2__p {
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  max-width: 270px;
+}
+.block2__h5 {
+  font-family: "Libre Franklin", serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.block2__form {
+  text-align: center;
+  margin-top: 40px;
+}
+.block2__button {
+  padding: 21px 35px 21px 26px;
+  border: 1px solid;
+  font-family: "Libre Franklin", serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: none;
+}
