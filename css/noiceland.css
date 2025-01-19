@@ -23,11 +23,13 @@ body {
 
 .header {
   margin-top: 37px;
+  border-bottom: 1px solid #E6E6E6;
 }
 .header__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 29px;
 }
 .header__ul {
   margin: 0 20px 0 0;
@@ -49,7 +51,7 @@ body {
 }
 
 .japan {
-  margin-top: 88px;
+  margin-top: 58px;
 }
 .japan__inner {
   display: flex;
@@ -205,4 +207,190 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   background: none;
+}
+
+.block3 {
+  margin-top: 90px;
+}
+.block3__inner {
+  border-top: 1px solid #E6E6E6;
+}
+.block3__h4 {
+  font-weight: 400;
+  font-family: "Libre Franklin", serif;
+  color: #999999;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 90px 0 30px 0;
+}
+.block3__ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.block3__li {
+  max-width: 590px;
+  margin-bottom: 50px;
+}
+.block3__h6 {
+  margin: 20px 0 18px 0;
+  font-family: "Libre Franklin", serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+}
+.block3__p {
+  margin: 0 0 15px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  max-width: 550px;
+}
+.block3__h5 {
+  font-family: "Libre Franklin", serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.footer {
+  margin-top: 40px;
+  background-color: #141414;
+  padding: 90px 0 80px 0;
+}
+.footer__h3 {
+  margin: 0 0 57px 0;
+}
+.footer__img {
+  margin-right: 15px;
+}
+.footer__span {
+  color: #666666;
+  font-family: "Libre Franklin", serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.footer__mid {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #4D4D4D;
+}
+.footer__h4 {
+  font-family: "Libre Franklin", serif;
+  font-weight: 400;
+  font-size: 10px;
+  margin: 60px 0 20px 0;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666666;
+}
+.footer__ul1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  width: 776px;
+  justify-content: space-between;
+}
+.footer__li1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer__a {
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  color: white;
+  font-family: "Libre Franklin", serif;
+}
+.footer__form {
+  margin: 60px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+.footer__label {
+  color: #666666;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  font-family: "Libre Franklin", serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer__formd {
+  display: flex;
+}
+.footer__input {
+  font-family: "Libre Franklin", serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  padding: 18px 77px 18px 24px;
+}
+.footer__btn {
+  padding: 18px 24px;
+  font-family: "Libre Franklin", serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.footer__last {
+  margin: 55px 0 0 0;
+  display: flex;
+  max-width: 600px;
+  justify-content: space-between;
+}
+.footer__ul2 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+.footer__li2 {
+  margin-bottom: 10px;
+}
+.footer__h6 {
+  margin: 0 0 10px 0;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Libre Franklin", serif;
+  color: #666666;
+}
+.footer__a1 {
+  margin: 0;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Libre Franklin", serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
 }
